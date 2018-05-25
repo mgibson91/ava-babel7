@@ -1,12 +1,18 @@
 {
   "name": "ava-only",
   "version": "0.0.1",
-  "dependencies": {
-    "@babel/register": "^7.0.0-beta.48"
-  },
   "ava": {
     "require": [
       "@babel/register"
     ]
+  },
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "devDependencies": {
+    "@ava/babel-preset-stage-4": "^1.1.0",
+    "@babel/core": "^7.0.0-beta.48",
+    "@babel/register": "^7.0.0-beta.48",
+    "ava": "^0.25.0"
   }
 }
