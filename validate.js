@@ -1,0 +1,1 @@
+export const isNum = (num) => typeof num === 'number';
